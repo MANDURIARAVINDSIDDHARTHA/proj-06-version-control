@@ -10,3 +10,8 @@ variable "environment" {
 output "environment" {
   value = var.environment
 }
+
+variable "region" {
+  type    = string
+  default = "ap-south-1"
+}
