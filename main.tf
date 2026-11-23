@@ -20,3 +20,8 @@ variable "instance_type" {
   type    = string
   default = "t3.micro"
 }
+
+variable "environment_tag" {
+  type    = string
+  default = "training"
+}
